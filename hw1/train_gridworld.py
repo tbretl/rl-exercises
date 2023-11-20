@@ -136,10 +136,9 @@ def value_iteration(rg):
     cbar.set_label('V(s)')
     plt.savefig('gridworld_vi_valuefunction.png')
 
-    # Check if the value function is what we expect. In particular, starting
-    # from state 1, we expect a repeated reward pattern of [10, 0, 0, 0, 0].
-    # We compute the total discounted reward that corresponds to this pattern
-    # and compare it to V[1].
+    # TODO - Check if the value function is what we expect. In particular, compute
+    # the total discounted reward that you would get if from starting in state 1. We
+    # will compare this to V[1].
     # V_1 = ...
     print(f'V[1] = {V[1]:7.3f}, V_1 = {V_1:7.3f}')
 
