@@ -140,7 +140,7 @@ def value_iteration(rg):
     # from state 1, we expect a repeated reward pattern of [10, 0, 0, 0, 0].
     # We compute the total discounted reward that corresponds to this pattern
     # and compare it to V[1].
-    V_1 = np.sum(np.power(gamma, range(1000)) * np.tile([10, 0, 0, 0, 0], 200))
+    # V_1 = ...
     print(f'V[1] = {V[1]:7.3f}, V_1 = {V_1:7.3f}')
 
 def policy_iteration(rg):
