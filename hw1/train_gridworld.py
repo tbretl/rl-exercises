@@ -75,7 +75,7 @@ def value_iteration(rg):
             # TODO - Implement one value iteration:
             #
             # v = ...           # <-- float
-            # Q = [ ... ]       # <-- list of integers
+            # Q = [ ... ]       # <-- list of floats
             # policy[s] = ...   # <-- integer
             # V[s] = ...        # <-- float
             # delta = ...       # <-- float
@@ -192,7 +192,7 @@ def policy_iteration(rg):
             # TODO - Implement one policy iteration:
             #
             # a_old = ...           # <-- integer
-            # Q = ...               # <-- list of integers
+            # Q = ...               # <-- list of floats
             # policy[s] = ...       # <-- integer
             #
             # TODO - Implement stopping criterion (replace "True" with a condition):
